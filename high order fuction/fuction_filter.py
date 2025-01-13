@@ -1,9 +1,7 @@
-from fun
+my_list = [5,4,9,8,7,5,2,6,4,5,9]
 
-my_list = [5,4,2,6,5]
+filter_function = lambda x:x % 2 != 0
 
-power_function = lambda x , y: x+y 
+filter_list = list(filter(filter_function , my_list))
 
-powered_function = list((power_function,my_list))
-
-print(powered_function)
+print(filter_list)

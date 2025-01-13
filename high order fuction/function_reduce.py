@@ -1,11 +1,9 @@
 from functools import reduce
 
-my_tuple = (10,20,30,40,50)
+my_list = [5,4,2,6,5]
 
-def max_digit(x,y):
-    if x > y:
-        return x
-    else:
-        return y
-    
-x = reduce(max_digit,my_tuple)    
+power_function = lambda x , y: x+y 
+
+powered_function = reduce(power_function,my_list)
+
+print(powered_function) 
