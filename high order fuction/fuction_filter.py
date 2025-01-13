@@ -1,9 +1,9 @@
-my_tuple = (70,75,60,85,25,40,80)
+from fun
 
-def greater_60(x):
-    if x > 60 :
-        return x
-    
-x =  (filter(greater_60,my_tuple))
+my_list = [5,4,2,6,5]
 
-print(list(x))
+power_function = lambda x , y: x+y 
+
+powered_function = list((power_function,my_list))
+
+print(powered_function)
